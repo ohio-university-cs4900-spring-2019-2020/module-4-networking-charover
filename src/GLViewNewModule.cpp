@@ -198,7 +198,7 @@ void GLViewNewModule::onKeyDown( const SDL_KeyboardEvent& key )
        sndeng->stopAllSounds();
         
    if (key.keysym.sym == SDLK_4) {
-       createAlien();
+       createGrunt();
    }
 
 }
